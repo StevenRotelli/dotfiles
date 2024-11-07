@@ -1,0 +1,87 @@
+# General system files
+.DS_Store
+Thumbs.db
+.idea/
+*.swp
+*.swo
+*.bak
+*.tmp
+
+# Logs and database files
+logs/
+*.log
+
+# Oh My Zsh and shell-related
+.zcompdump*
+.zsh_history
+.zsh_sessions
+.zshrc.pre-oh-my-zsh
+
+# Exclude oh-my-zsh repo if it's set as a submodule
+.oh-my-zsh/.git/
+
+# Temporary files created by editors
+*.sublime-workspace
+*.sublime-project
+.vscode/
+*.code-workspace
+*~
+
+# Backup and compiled files
+*.orig
+*.pyc
+*.pyo
+__pycache__/
+
+# Node.js and npm
+node_modules/
+npm-debug.log*
+yarn-error.log
+.pnpm-debug.log*
+
+# Python
+*.py[cod]
+*.so
+
+# Environment variable files
+.env
+.env.local
+.env.*.local
+
+# MacOS specific
+.AppleDouble
+.LSOverride
+Icon\r
+._*
+
+# Linux specific
+*~
+
+# Windows specific
+Thumbs.db
+Desktop.ini
+
+# Git specific
+.git/
+.gitignore
+.gitmodules
+*.rej
+*.patch
+
+# IDEs and text editors
+.idea/
+*.iml
+.project
+.classpath
+.c9/
+*.launch
+*.sublime-project
+*.sublime-workspace
+.venv/
+.vscode/
+*.code-workspace
+*.ipynb_checkpoints
+
+# Temporary folders
+tmp/
+temp/
