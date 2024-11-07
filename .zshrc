@@ -12,7 +12,8 @@ export PATH="$PATH:~/.dotnet/tools"
 
 # Install Oh My Zsh if not already installed
 if [ ! -d "$HOME/.oh-my-zsh" ]; then
-  sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  #sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+  git clone https://github.com/ohmyzsh/ohmyzsh.git ~/.oh-my-zsh
 fi
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
