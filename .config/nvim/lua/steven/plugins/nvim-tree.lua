@@ -22,6 +22,22 @@ nvimtree.setup({
 		},
 	},
 	actions = {
+		-- rename = {
+		-- 	enable = true,
+		-- 	handler = function(src, dest)
+		-- 		local git_root = vim.fn.system("git rev-parse --show-toplevel")
+		-- 		if vim.v.shell_error == 0 then
+		-- 			-- Use `git mv` for renaming
+		-- 			local cmd = string.format("git mv %s %s", vim.fn.shellescape(src), vim.fn.shellescape(dest))
+		-- 			os.execute(cmd)
+		-- 			print("git mv")
+		-- 		else
+		-- 			-- Fallback to normal renaming
+		-- 			os.rename(src, dest)
+		-- 			print("mv")
+		-- 		end
+		-- 	end,
+		-- },
 		open_file = {
 			window_picker = {
 				enable = false,

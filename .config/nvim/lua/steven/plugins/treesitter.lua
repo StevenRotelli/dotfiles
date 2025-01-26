@@ -18,6 +18,7 @@ treesitter.setup({
 	ensure_installed = {
 		-- "vbnet",
 		"json",
+		"jsdoc",
 		"javascript",
 		"typescript",
 		"tsx",
